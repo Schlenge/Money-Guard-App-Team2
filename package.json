@@ -1,8 +1,8 @@
 {
-  "name": "react-homework-template",
+  "name": "Money Guard - React Project_Team 2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Schlenge/Money-Guard-App-Team2.git",
+  "homepage": "https://schlenge.github.io/Money-Guard-App-Team2/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
