@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Schlenge/Money-Guard-App-Team2.git/static/css/main.7acaea2f.css",
+    "main.js": "/Schlenge/Money-Guard-App-Team2.git/static/js/main.07d3183d.js",
+    "index.html": "/Schlenge/Money-Guard-App-Team2.git/index.html",
+    "main.7acaea2f.css.map": "/Schlenge/Money-Guard-App-Team2.git/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/Schlenge/Money-Guard-App-Team2.git/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
