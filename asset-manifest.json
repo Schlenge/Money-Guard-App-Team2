@@ -1,13 +1,26 @@
 {
   "files": {
-    "main.css": "/Money-Guard-App-Team2/static/css/main.7acaea2f.css",
-    "main.js": "/Money-Guard-App-Team2/static/js/main.07d3183d.js",
+    "main.css": "/Money-Guard-App-Team2/static/css/main.ec0d1388.css",
+    "main.js": "/Money-Guard-App-Team2/static/js/main.940fc848.js",
+    "static/media/gradient.webp": "/Money-Guard-App-Team2/static/media/gradient.97f7d926370def36c1c7.webp",
+    "static/media/Poppins-Regular.ttf": "/Money-Guard-App-Team2/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/Money-Guard-App-Team2/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/Poppins-Bold.ttf": "/Money-Guard-App-Team2/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/desktopRegister.webp": "/Money-Guard-App-Team2/static/media/desktopRegister.4d04a4a93eccc2beb204.webp",
+    "static/media/tabletRegister.webp": "/Money-Guard-App-Team2/static/media/tabletRegister.a07821c01d71a9c6800b.webp",
+    "static/media/desktopLogin.webp": "/Money-Guard-App-Team2/static/media/desktopLogin.455a3304b47ab081804a.webp",
+    "static/media/tabletLogin.webp": "/Money-Guard-App-Team2/static/media/tabletLogin.6fe88424d2836d318e69.webp",
+    "static/media/icons.svg": "/Money-Guard-App-Team2/static/media/icons.1c6c3b65263898e7a8e0de6bad76c294.svg",
+    "static/media/mobileLogin.webp": "/Money-Guard-App-Team2/static/media/mobileLogin.2da9430439eae880996b.webp",
+    "static/media/mobileRegister.webp": "/Money-Guard-App-Team2/static/media/mobileRegister.cd96492ed450e20db6d0.webp",
     "index.html": "/Money-Guard-App-Team2/index.html",
-    "main.7acaea2f.css.map": "/Money-Guard-App-Team2/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Money-Guard-App-Team2/static/js/main.07d3183d.js.map"
+    "static/media/plus.svg": "/Money-Guard-App-Team2/static/media/plus.a58a4b7ed8848fba14de2bc1d07e1d91.svg",
+    "static/media/minus.svg": "/Money-Guard-App-Team2/static/media/minus.8fbfeac6337b8e7674275c5595939370.svg",
+    "main.ec0d1388.css.map": "/Money-Guard-App-Team2/static/css/main.ec0d1388.css.map",
+    "main.940fc848.js.map": "/Money-Guard-App-Team2/static/js/main.940fc848.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.ec0d1388.css",
+    "static/js/main.940fc848.js"
   ]
 }
