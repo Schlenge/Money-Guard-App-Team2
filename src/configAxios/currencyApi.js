@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const YOUR_APP_ID = '8af089e06abd4dd699dbb2c43fb15320';
+const YOUR_APP_ID = '4108a1cd1b614adb88e3d413dc37dbec';
 
 export async function getCurrentExchangeRate() {
     const apiUrl = `https://openexchangerates.org/api/latest.json`;
