@@ -3,10 +3,14 @@ import axios from 'axios';
 const YOUR_APP_ID = '8af089e06abd4dd699dbb2c43fb15320';
 
 export async function getCurrentExchangeRate() {
-    const apiUrl = `https://openexchangerates.org/api/latest.json?app_id=${YOUR_APP_ID}`;
+    const apiUrl = `https://openexchangerates.org/api/latest.json`;
     
     try {
-        const response = await axios.get(apiUrl);
+        const response = await axios.get(apiUrl, {
+          headers: {
+            Authorization: `Token ${YOUR_APP_ID}`
+          }
+        });
         const data = response.data;
 
         if (data && data.rates) {
