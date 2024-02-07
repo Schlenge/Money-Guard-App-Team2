@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Money-Guard-App-Team2/static/css/main.ec0d1388.css",
-    "main.js": "/Money-Guard-App-Team2/static/js/main.08e42e94.js",
+    "main.js": "/Money-Guard-App-Team2/static/js/main.b8c4bda4.js",
     "static/media/gradient.webp": "/Money-Guard-App-Team2/static/media/gradient.97f7d926370def36c1c7.webp",
     "static/media/Poppins-Regular.ttf": "/Money-Guard-App-Team2/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Poppins-SemiBold.ttf": "/Money-Guard-App-Team2/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
@@ -17,10 +17,10 @@
     "static/media/plus.svg": "/Money-Guard-App-Team2/static/media/plus.a58a4b7ed8848fba14de2bc1d07e1d91.svg",
     "static/media/minus.svg": "/Money-Guard-App-Team2/static/media/minus.8fbfeac6337b8e7674275c5595939370.svg",
     "main.ec0d1388.css.map": "/Money-Guard-App-Team2/static/css/main.ec0d1388.css.map",
-    "main.08e42e94.js.map": "/Money-Guard-App-Team2/static/js/main.08e42e94.js.map"
+    "main.b8c4bda4.js.map": "/Money-Guard-App-Team2/static/js/main.b8c4bda4.js.map"
   },
   "entrypoints": [
     "static/css/main.ec0d1388.css",
-    "static/js/main.08e42e94.js"
+    "static/js/main.b8c4bda4.js"
   ]
 }
