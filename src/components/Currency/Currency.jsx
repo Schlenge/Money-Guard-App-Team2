@@ -1,6 +1,6 @@
-import React, { useEffect, useCallback, useState} from 'react';
+import React, { useEffect, useCallback, useState } from 'react';
 import image from '../../images/currency.png';
-import imageTab from '../../images/currencyTab.png'
+import imageTab from '../../images/currencyTab.png';
 import {
   CurrencyWrapper,
   CurrencyTable,
@@ -12,7 +12,8 @@ import {
   CurrencyDiagram,
   LowerNumber,
   HigherNumber,
-  CurrencyHeadWrapper, Gradient,
+  CurrencyHeadWrapper,
+  Gradient,
 } from './Currency.styled';
 import { nanoid } from 'nanoid';
 import { useDispatch, useSelector } from 'react-redux';
@@ -43,17 +44,14 @@ const Currency = () => {
     } else {
       setCurrency(selectedCurrency);
     }
-
   }, [dispatch, lastUpdatedTime, isHourPassed, selectedCurrency]);
 
   useEffect(() => {
     dispatch(setLastUpdatedTime(Date.now()));
   }, [dispatch]);
 
-
-
-  const isTablet = useMediaQuery({ query: '(max-width: 1279px' })
-  const isDesktop = useMediaQuery({ query: '(min-width: 1280px)' })
+  const isTablet = useMediaQuery({ query: '(max-width: 1279px' });
+  const isDesktop = useMediaQuery({ query: '(min-width: 1280px)' });
 
   return (
     <CurrencyWrapper>
@@ -64,7 +62,7 @@ const Currency = () => {
             <CurrencyTableHeadItem>Currency</CurrencyTableHeadItem>
             <CurrencyTableHeadItem>Purchase</CurrencyTableHeadItem>
             <CurrencyTableHeadItem>Sale</CurrencyTableHeadItem>
-        </CurrencyTableHead>
+          </CurrencyTableHead>
         </CurrencyHeadWrapper>
 
         <CurrencyTableBodyList>
@@ -74,7 +72,9 @@ const Currency = () => {
                 <CurrencyTableBody key={nanoid()}>
                   <CurrencyTableItem>{el.currencyName}</CurrencyTableItem>
                   <CurrencyTableItem>{el.rateBuy.toFixed(2)}</CurrencyTableItem>
-                  <CurrencyTableItem>{el.rateSell.toFixed(2)}</CurrencyTableItem>
+                  <CurrencyTableItem>
+                    {el.rateSell.toFixed(2)}
+                  </CurrencyTableItem>
                 </CurrencyTableBody>
               );
             })}
@@ -82,25 +82,29 @@ const Currency = () => {
       </CurrencyTable>
       <CurrencyDiagram>
         {currency?.map(item => {
-          if (item.currencyCodeA === 840) {
+          if (item.currencyName === 'USD') {
             return (
-              <LowerNumber key={nanoid()}>{Number(item.rateBuy).toFixed(2)}</LowerNumber>
+              <LowerNumber key={nanoid()}>
+                {Number(item.rateBuy).toFixed(2)}
+              </LowerNumber>
             );
           }
           return [];
         })}
 
         {currency?.map(item => {
-          if (item.currencyCodeA === 978) {
+          if (item.currencyName === 'EUR') {
             return (
-              <HigherNumber key={nanoid()}>{Number(item.rateBuy).toFixed(2)}</HigherNumber>
+              <HigherNumber key={nanoid()}>
+                {Number(item.rateBuy).toFixed(2)}
+              </HigherNumber>
             );
           }
           return [];
         })}
 
-        {isDesktop && (<img src={image} alt="" />)}
-        {isTablet && (<img src={imageTab} alt="" />)}
+        {isDesktop && <img src={image} alt="" />}
+        {isTablet && <img src={imageTab} alt="" />}
       </CurrencyDiagram>
     </CurrencyWrapper>
   );
