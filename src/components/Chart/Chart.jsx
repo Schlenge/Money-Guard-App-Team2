@@ -112,7 +112,7 @@ export function Chart() {
             color: 'var(--white)',
           }}
         >
-          ₴ {formatNumber(summary.expenseSummary)}
+          {formatNumber(summary.expenseSummary)} RON
         </span>
       </div>
     </div>
