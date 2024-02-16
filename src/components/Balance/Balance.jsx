@@ -14,7 +14,7 @@ function Balance() {
   return (
     <StyledBalanceContainer>
       <StyledH>Your balance</StyledH>
-      <BalanceValue><span>₴ </span>{formatNumber(Number(balance))}</BalanceValue>
+      <BalanceValue>{formatNumber(Number(balance))}<span> RON</span></BalanceValue>
     </StyledBalanceContainer>
   );
 }
